@@ -7,7 +7,7 @@
 
 - A dátum mező azért van meghagyva Text-nek mert iégny esetén lehet bele dátumot, vagy dátumot és időt, vagy dátumot időt és helyet írni.
 
-- APK nincs mellékelve a repo-t lehúzva lehet futtatni
+- az APK-nak a kulcsa a kulcs nevű mappában található a rootban. Jelszó nyolc darab egyes.
 
 - [x] Fordítási hiba nincs
 - [x] Futtatási hiba nincs
