@@ -22,13 +22,15 @@
         android:layout_height="200dp"
         android:src="@drawable/myimage"
         android:layout_marginTop="50dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        />
 
     <EditText
         android:id="@+id/RegistrationEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Email.."
+        android:hint="Email"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
@@ -44,7 +46,7 @@
         android:id="@+id/RegistrationPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter password..."
+        android:hint="Jelszó"
         android:layout_margin="10dp"
         android:textColor="#fff"
         android:textColorHint="#fff"
@@ -58,21 +60,22 @@
         android:id="@+id/RegistrationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Regisztráció"
         android:textAllCaps="false"
         android:layout_margin="10dp"
         android:textColor="#000"
         android:textSize="20sp"
         android:background="#fff"/>
 
-    <TextView
+    <Button
         android:id="@+id/RegistrationPageQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Login"
-        android:textColor="#fff"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="10dp"/>
+        android:text="Már van fiókod? --> Bejelentkezés"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:background="#fff"/>
 
 </LinearLayout>

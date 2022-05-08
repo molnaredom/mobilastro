@@ -12,7 +12,6 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -62,7 +61,7 @@ public class HomeActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.homeToolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Todo List App");
+        getSupportActionBar().setTitle("Horoszkópok Listája");
         mAuth = FirebaseAuth.getInstance();
 
         recyclerView = findViewById(R.id.recyclerView);
@@ -120,11 +119,11 @@ public class HomeActivity extends AppCompatActivity {
 
 
                 if (TextUtils.isEmpty(mTask)) {
-                    task.setError("Task Required");
+                    task.setError("Név megadása kötelező");
                     return;
                 }
                 if (TextUtils.isEmpty(mDescription)) {
-                    description.setError("Description Required");
+                    description.setError("Dátum megadása kötelező");
                     return;
                 } else {
                     loader.setMessage("Mellé kattintással mentődik");
@@ -136,7 +135,7 @@ public class HomeActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()) {
-                                Toast.makeText(HomeActivity.this, "Task has been inserted successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeActivity.this, "Horoszkóp sikeresen hozzáadva", Toast.LENGTH_SHORT).show();
                                 loader.dismiss();
                             } else {
                                 String error = task.getException().toString();
@@ -145,9 +144,7 @@ public class HomeActivity extends AppCompatActivity {
                             }
                         }
                     });
-
                 }
-
                 dialog.dismiss();
             }
         });
