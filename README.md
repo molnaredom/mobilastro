@@ -8,6 +8,7 @@
 - A dátum mező azért van meghagyva Text-nek mert iégny esetén lehet bele dátumot, vagy dátumot és időt, vagy dátumot időt és helyet írni.
 
 - az APK-nak a kulcsa a kulcs nevű mappában található a rootban. Jelszó nyolc darab egyes.
+   - Az APK elérési útja: mobilastro/app/build/intermediates/apk/debug
 
 - [x] Fordítási hiba nincs
 - [x] Futtatási hiba nincs
