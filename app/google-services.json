@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "287956158575",
+    "project_id": "mobilastro-7bad4",
+    "storage_bucket": "mobilastro-7bad4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287956158575:android:e7acd0260af3d63b71659a",
+        "android_client_info": {
+          "package_name": "com.example.mobilastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287956158575-7ee8co866orbvbu12hvu67b3c1ogsnc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilastro",
+            "certificate_hash": "b308846d7c3c86ccd948c38e0a42613441731eac"
+          }
+        },
+        {
+          "client_id": "287956158575-1obefg3pre9q337pm2qrc3q88egtvqua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVe8AsvGyiPX4EooBFGFjW1ZVmpvuTabY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287956158575-1obefg3pre9q337pm2qrc3q88egtvqua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
